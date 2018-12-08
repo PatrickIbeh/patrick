@@ -1,0 +1,60 @@
+
+div:focus-within {  background-color: #1565C0; }
+
+#sidebarShown:checked ~ #container #sidebar{
+	
+}
+#darkThemeUsed:checked ~ #container{
+	background:#333;
+}
+#select {
+	color:red;
+}
+div #select:only-child{
+	color:blue;
+}
+.example{
+	width:300px;
+	border:4px solid black;
+	padding:50px;
+	background: url(C:\Users\PATRICK IBEH\Pictures\4tressPictures\a.jpg);
+	background-repeat:no-repeat;
+	margin:auto;
+	top:calc(50%-50%);
+	left:calc(100%-50%);
+}
+.example1{background-origin: border-box;}
+.example2{}
+.example3{background-origin: content-box;}
+html, body, .sample{
+	height:100%;
+}
+.sample{
+	justify-content:center;
+	display:flex;
+}
+img {
+	align-self:center; 
+}
+div.vertical {  position: relative;  top: 50%;  transform: translateY(-50%); }
+.out{
+	display:table;
+	width:50%;
+	height:50%;
+	position:absolute;
+	background:#fff;
+}
+.in{
+	display:;
+	vertical-align:middle;
+	text-align:center;
+	color:white;
+}
+.content{
+	height:1px;
+	display:inline-block;
+	padding:20px;
+	background:orange;
+	text-align:left;
+	border:1px solid #fff;
+}
